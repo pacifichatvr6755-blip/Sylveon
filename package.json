@@ -1,0 +1,30 @@
+{
+  "name": "sylveon",
+  "version": "1.0.0",
+  "description": "Beautiful GitHub App Manager for Ubuntu",
+  "main": "sylveon-installer.sh",
+  "scripts": {
+    "start": "bash ./start.sh",
+    "install": "bash ./install.sh",
+    "dev": "bash ./sylveon-installer.sh",
+    "build": "mkdir -p build && cd build && cmake .. && make"
+  },
+  "keywords": [
+    "app-manager",
+    "github",
+    "ubuntu",
+    "bash",
+    "cpp",
+    "installer"
+  ],
+  "author": "pacifichatvr6755-blip",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/pacifichatvr6755-blip/Sylveon.git"
+  },
+  "bugs": {
+    "url": "https://github.com/pacifichatvr6755-blip/Sylveon/issues"
+  },
+  "homepage": "https://github.com/pacifichatvr6755-blip/Sylveon"
+}
